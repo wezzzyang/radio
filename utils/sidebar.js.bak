@@ -1,0 +1,209 @@
+export const state = () => ({
+  menu: [
+      /*  仪表盘  */
+      {
+          label: '仪表盘',
+          slug: 'dashboard',
+          link: '/dashboard/dashboard',
+          icon: 'iconfont icon-view-quilt',
+          role: ['admin'],
+      },
+      /*  人员  */
+      {
+          label: '管理人员',
+          slug: 'person',
+          link: '/person',
+          icon: 'iconfont icon-person',
+          role: ['admin'],
+          submenu: [
+              {
+                  label: '人员管理',
+                  slug: 'person-manage',
+                  link: '/person/person',
+                  role: ['admin']
+              },
+              {
+                  label: '部门管理',
+                  slug: 'person-department',
+                  link: '/person/department',
+                  role: ['admin']
+              },
+              {
+                  label: '角色管理',
+                  slug: 'person-role',
+                  link: '/person/role',
+                  role: ['admin']
+              }
+          ]
+      },
+      /*  车主  */
+      {
+          label: '车主',
+          slug: 'owner',
+          link: '/owner',
+          icon: 'iconfont icon-owner',
+          role: ['admin'],
+          submenu: [
+            {
+              label: '个人',
+              slug: 'owner',
+              link: '/owner/person',
+              name: 'owner-info',
+              role: ['admin']
+            },
+            {
+              label: '单位',
+              slug: 'owner',
+              link: '/owner/unit',
+              name: 'owner-unit',
+              role: ['admin']
+            }
+          ]
+      },
+      /*  通行证  */
+      {
+          label: '通行证',
+          slug: 'passport',
+          link: '/passport',
+          icon: 'iconfont icon-passport',
+          role: ['admin'],
+          submenu: [
+            {
+              label: '未审核',
+              slug: 'passport-unreviewed',
+              link: '/passport/unreviewed',
+              role: ['admin'],
+            },
+            {
+              group: true,
+              label: '已审核',
+              slug: 'passport-reviewed',
+              role: ['admin'],
+              list: [
+                {
+                    label: '超限通行证',
+                    slug: 'passport-reviewed-transfinite',
+                    link: '/passport/transfinite',
+                    role: ['admin']
+                },
+                {
+                  label: '危化品通行证',
+                  slug: 'passport-reviewed-danger',
+                  link: '/passport/danger',
+                  role: ['admin']
+                },
+                {
+                  label: '临时通行证',
+                  slug: 'passport-reviewed-temp',
+                  link: '/passport/temp',
+                  role: ['admin']
+                },
+                {
+                  label: '渣土车通行证',
+                  slug: 'passport-reviewed-dregs',
+                  link: '/passport/dregs',
+                  role: ['admin']
+                },
+                {
+                  label: '应急抢险通行证',
+                  slug: 'passport-reviewed-emergency',
+                  link: '/passport/emergency',
+                  role: ['admin']
+                },
+                {
+                  label: '自助申请通行证',
+                  slug: 'passport-reviewed-apply',
+                  link: '/passport/apply',
+                  role: ['admin']
+                }
+              ]
+            }
+          ]
+      },
+      /*  车辆  */
+      {
+        label: '车辆',
+        slug: 'vehicle',
+        link: '/vehicle',
+        icon: 'iconfont icon-vehicle',
+        role: ['admin'],
+        submenu: [
+          {
+            label: '车辆信息',
+            slug: 'vehicle-info',
+            link: '/vehicle/info',
+            role: ['admin']
+          }
+        ]
+      },
+      /*  线路  */
+      {
+            label: '线路',
+            slug: 'route',
+            link: '/route',
+            icon: 'iconfont icon-route',
+            role: ['admin'],
+            submenu: [
+              {
+                label: '道路信息',
+                slug: 'route-road',
+                link: '/route/road',
+                role: ['admin']
+              },
+              {
+                label: '通行线路模板',
+                slug: 'route-template',
+                link: '/route/template',
+                role: ['admin']
+              }
+            ]
+      },
+      /*  设置  */
+      {
+          label: '设置',
+          slug: 'setting',
+          link: '/setting',
+          icon: 'iconfont icon-settings',
+          role: ['admin'],
+          submenu: [
+            {
+                label: '车主类型',
+                slug: 'setting-owner-type',
+                link: '/owner/type',
+                role: ['admin']
+            },
+            {
+              label: '号牌类型',
+              slug: 'setting-vehicle-plate-type',
+              link: '/vehicle/plate',
+              role: ['admin']
+            },
+            {
+              label: '通行证类型',
+              slug: 'setting-passport-type',
+              link: '/passport/type',
+              role: ['admin']
+            },
+            {
+              label: '上传设置',
+              slug: 'setting-upload',
+              link: '/setting/upload',
+              role: ['admin']
+            },
+            {
+              label: '通用设置',
+              slug: 'setting-time',
+              link: '/setting/time',
+              role: ['admin']
+            }
+          ]
+      }
+  ],
+  isCollapse: true
+});
+
+export const mutations = {
+  toggleSidebar(state) {
+    state.isCollapse = !state.isCollapse;
+  }
+};

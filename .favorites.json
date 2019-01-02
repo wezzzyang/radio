@@ -1,0 +1,56 @@
+[
+    {
+        "type": "Directory",
+        "name": "d:\\Workspace-Idea\\TruckPass\\Project\\front-admin\\pages\\admin",
+        "parent_id": null,
+        "fsPath": "d:\\Workspace-Idea\\TruckPass\\Project\\front-admin\\pages\\admin",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "kzWHxNUIaXtCmhdg"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\Workspace-Idea\\TruckPass\\Project\\front-admin\\store",
+        "parent_id": null,
+        "fsPath": "d:\\Workspace-Idea\\TruckPass\\Project\\front-admin\\store",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "DGzHSsVZqd37UtmP"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\Workspace-Idea\\TruckPass\\Project\\front-admin\\components",
+        "parent_id": null,
+        "fsPath": "d:\\Workspace-Idea\\TruckPass\\Project\\front-admin\\components",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "bpYqGRoAaUT1x9VE"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\Workspace-Idea\\TruckPass\\Project\\front-admin\\mock",
+        "parent_id": null,
+        "fsPath": "d:\\Workspace-Idea\\TruckPass\\Project\\front-admin\\mock",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "NYtCqaAyJSbdu9kT"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\Workspace-Idea\\TruckPass\\Project\\front-admin\\docs",
+        "parent_id": null,
+        "fsPath": "d:\\Workspace-Idea\\TruckPass\\Project\\front-admin\\docs",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "zuOyviYdJhfbXS5q"
+    },
+    {
+        "type": "File",
+        "name": "d:\\Workspace-Idea\\TruckPass\\Project\\front-admin\\store\\sidebar.js",
+        "parent_id": null,
+        "fsPath": "d:\\Workspace-Idea\\TruckPass\\Project\\front-admin\\store\\sidebar.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "yfLIpQWboSwlJFnN"
+    }
+]

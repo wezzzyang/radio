@@ -1,0 +1,39 @@
+
+@font-face {font-family: "iconfont";
+  src: url('~assets/fonts/Iconfont/iconfont.eot?t=1539140383261'); /* IE9*/
+  src: url('~assets/fonts/Iconfont/iconfont.eot?t=1539140383261#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
+  url('~assets/fonts/Iconfont/iconfont.ttf?t=1539140383261') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('~assets/fonts/Iconfont/iconfont.svg?t=1539140383261#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-person:before { content: "\ec69"; }
+
+.icon-blacklist:before { content: "\e602"; }
+
+.icon-owner:before { content: "\e603"; }
+
+.icon-whitelist:before { content: "\e604"; }
+
+.icon-vehicle:before { content: "\e68a"; }
+
+.icon-passport:before { content: "\e6d0"; }
+
+.icon-lock:before { content: "\e7d9"; }
+
+.icon-settings:before { content: "\e898"; }
+
+/* .icon-passport:before { content: "\e61c"; } */
+
+.icon-dashboard:before { content: "\e6eb"; }
+
+.icon-route:before { content: "\f09c"; }
+

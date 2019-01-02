@@ -1,0 +1,10 @@
+{
+  "output": "api",
+  "template": "axios",
+  "projects": [
+    {
+      "id": "5bb370220b166245847a1c1f",
+      "name": "truckpass"
+    }
+  ]
+}
